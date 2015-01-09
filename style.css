@@ -1,0 +1,140 @@
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.topheader {
+    background: rgb(0,78,142);
+    font-size: 10px;
+    color: white;
+    width: 100%;
+    height: 4%;
+    margin: 0;
+    padding: 0;
+}
+.headerinfo {
+    float: left;
+    margin-left: 10px;
+    border-right: solid lightblue 1px;
+    text-align: center;
+    padding-right: 5px;
+}
+
+.background {
+    width: 100%;
+    height: 100%;
+    background: rgb(0,90,163);
+    border-top: solid lightblue 1px;
+}
+
+.main-container {
+    width: 95%;
+    height: 95%;
+    background: rgb(255,255,255);
+    margin: 0 auto;
+    box-shadow: 5px 5px 5px black;
+
+}
+
+.banner-main {
+    width: 100%;
+    height: 12%;
+    box-sizing: border-box;
+    margin-top: 20px;
+}
+
+
+.logobox {
+    height: 100%;
+    padding-top: 0;
+    margin-left: 0;
+    display: inline-block;
+    width: auto;
+    float: left;
+}
+
+
+.banner-boxes {
+    height: 10%;
+    text-align: center;
+    width: 55px;
+    height: 15px;
+    float: right;
+    color: rgb(53,131,188);
+    padding-top: 0;
+    display: inline;
+    margin-top: 30px;
+    margin-right: 30px;
+
+}
+.main-picture {
+    width: 100%;
+    float: left;
+    height: auto;
+    text-align: center;
+
+}
+
+.image-size {
+    height: 100%;
+    width: 100%;
+}
+
+.menu-button {
+    height: 30px;
+    width: 30px;
+    background: rgb(0,78,142);
+    border-radius: 5px;
+    position: relative;
+    margin: 0;
+    padding: 0;
+
+}
+
+.shiftdown {
+    padding-top: 4px;
+    padding-left: 2px;
+}
+.button-line {
+    background: white;
+    height: 2px;
+    width: 20px;
+    padding-top: 1px;
+    margin-top: 3px;
+    margin-left: 3px;
+    text-align: center;
+    border-radius: 3px;
+
+}
+
+.dropDownButton {
+    float: right;
+    margin-right: 20px;
+    padding-top: 30px;
+    display: none;
+    bottom: 0;
+}
+
+@media screen and (max-width: 927px) {
+
+     .dropDownButton {
+         display: inline;
+
+    }
+    .banner-boxes {
+        display: none;
+    }
+}
